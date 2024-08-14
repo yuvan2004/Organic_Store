@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    border: 1px solid #aaa;
+    padding: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(95, 97, 97);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.img-logo{
+    width: 10px;
+    height: 10px;
+}
+/* .container-boader{
+    border-radius: 10px;
+    background-color: antiquewhite; */
+/* } */
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #ffff;
+    justify-content: space-between;
+}
+
+.product-cart-img {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Added gap for spacing between cards */
+    width: 100%; /* Updated to full width */
+    margin-left: 25px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    flex: 1 1 300px; /* Updated to allow flexbox to wrap */
+    max-width: 300px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: 10px  #040303;
+    padding: 10px;
+    
+ /* Added to limit the card width */
+}
+.card-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.button {
+    padding: 4px;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 5);
+    color: black;
+}
